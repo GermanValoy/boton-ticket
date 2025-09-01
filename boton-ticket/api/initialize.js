@@ -12,7 +12,7 @@ export default async function handler(req, res) {
           {
             type: "button",
             id: "perfil",
-            label: "Perfil",
+            label: "👤 Perfil",
             style: "primary",
             action: {
               type: "url",
@@ -22,7 +22,7 @@ export default async function handler(req, res) {
           {
             type: "button",
             id: "bookie",
-            label: "Bookie",
+            label: "🎲 Bookie",
             style: "primary",
             action: {
               type: "url",
@@ -32,7 +32,7 @@ export default async function handler(req, res) {
           {
             type: "button",
             id: "af",
-            label: "AF",
+            label: "👻 AF",
             style: "primary",
             action: {
               type: "url",
@@ -47,3 +47,4 @@ export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.status(200).json(payload);
 }
+
